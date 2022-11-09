@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load comments_extras %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+{% block main %}
+    {% show_comment_form post form %}
+{% load comments_extras %}
+</body>
+</html>
